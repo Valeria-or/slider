@@ -1,0 +1,89 @@
+.slider {
+    height: 350px;
+
+    /*margin-left: 30px;*/
+    margin-top: 30px;
+    transition: all ease 1s;
+    margin-left: 72px;
+
+
+}
+
+#slider{
+    display: inline-block;
+}
+#next, #previous{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -100px;
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid transparent;
+
+}
+#previous{
+    margin-left: 78px;
+}
+
+#next{
+    margin-left: -30px;
+
+}
+
+#next:hover, #previous:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+/*.fade .slider {*/
+/*    -webkit-animation-name: fade;*/
+/*    -webkit-animation-duration: 1.5s;*/
+/*    animation-name: fade;*/
+/*    animation-duration: 1.5s;*/
+/*}*/
+/*!*@-webkit-keyframes fade {*!*/
+/*!*    from{opacity: 4}*!*/
+/*!*    to{opacity: 1}*!*/
+
+/*!*}*!*/
+/*@keyframes fade {*/
+/*    from{opacity: 4}*/
+/*    to{opacity: 1}*/
+/*}*/
+
+#numberSlide{
+    font-size: 23px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 80px;
+    color: white;
+
+}
+#text{
+    font-size: 23px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -33px;
+    color: white;
+
+}
+#points{
+    margin-left: 540px;
+
+}
+.dot{
+    /*visibility: hidden;*/
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.dot:hover{
+    background-color: #717171;
+}
